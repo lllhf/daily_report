@@ -32,7 +32,7 @@ $ sudo python dependencies/get-pip.py
 
 ``` python
 repeat_flag = False			# 是否每天重复（除周末）
-report_time = 8				# 如果每天重复，则每天提醒进行日报的时间（建议每天设为上午8点）
+report_time = 8				# 如果每天重复，则每天提醒进行日报的时间（建议设为上午8点）
 user_name = '****************'		# 域账户名
 user_passwd = '****************'	# 域密码
 task_index = 1                      # 要自动汇报的项目的序号（如果只有一个项目可以不用改）
