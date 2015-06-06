@@ -121,8 +121,8 @@ def report():
 def main():
     global time_interval
     bRunning = 0
-    cur_time = -1
-    last_time = -1
+    cur_time = ''
+    last_time = ''
 
     if not repeat_flag:
         report()
